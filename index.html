@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Grzegorz Lach">
+        <title>Pogodynka</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="getWeather('New York')">
+        <h1>P<span style="color:#F6F6C9; text-shadow: 2px 1px 20px #F6F6C9;">o</span>g<span style="color:#F6F6C9;text-shadow: 2px 1px 20px #F6F6C9;">o</span>dynka</h1>
+        <div id="form">
+            <input type="text" placeholder="New York, USA" id="inp"><button id="btn">Pokaż pogodę</button>
+        </div>
+        <h2>Pogoda na dziś</h2>
+        <div id="today">
+            <p>21/11/2022   10:20</p>
+            <p>30°, odczuwalana 35°</p>
+            <p>Ikona</p>
+            <p>SUNNY</p>
+        </div>
+        <h2>Prognoza na 5 dni</h2>
+        <div id="cont">
+        </div>
+    </body>
+    <script src="skrypt.js"></script>
+</html>
+<!-- 
+    Pogodynka
+    Podaj lokalizacje
+    Pobierz Pogodę 
+    Ze screena na niebiesko to Layout
+
+    Pogoda aktualna:
+        Data godzina
+        temperatura, odczuwalan
+        ikonka typu pogody
+        jaka pogoda : sunny
+    
+    Progdnoza na 5 dni
+
+    40 boxów
+    Termin : 27/11 do 20:00
+ -->
+ 
